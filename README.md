@@ -56,7 +56,7 @@ French translation is maintained by Vuejs-FR.
 Polish translation is maintained by lukaszkups.
 
 * Translation Repo — [/lukaszkups/vuejs.org](https://github.com/lukaszkups/vuejs.org)
-& Primary maintainer - [lukaszkups](https://github.com/lukaszkups)
+* Primary maintainer - [lukaszkups](https://github.com/lukaszkups)
 
 ### Want to help with the translation?
 
