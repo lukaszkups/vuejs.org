@@ -1,11 +1,12 @@
-# Support Vue.js Development
+# Wsparcie rozwoju Vue.js
 
-Vue.js is an MIT licensed open source project and completely free to use.
-However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support Vue.js development by [pledging on Patreon](https://www.patreon.com/evanyou) (recurring, with perks for different tiers) or [donating on PayPal](https://www.paypal.me/evanyou) (one time).
+Vue.js jest projektem typu open source na licencji MIT, co oznacza że korzystanie z niego jest kompletnie darmowe.
 
-## Current Premium Sponsors:
+Jednakże ciągły rozwój oraz utrzymanie takiego projektu nie byłoby możliwe bez odpowiedniego finansowania. Możesz także wspomóc rozwój Vue.js poprzez [portal Patreon](https://www.patreon.com/evanyou) (co miesiąc) lub [PayPal](https://www.paypal.me/evanyou) (jednorazowo).
 
-### Platinum ($2000/mo)
+## Sponsorzy premium:
+
+### Platynowi (2000 USD miesięcznie)
 
 <p style="text-align: center;">
   <a href="https://stdlib.com">
@@ -13,7 +14,7 @@ However, the amount of effort needed to maintain and develop new features for th
   </a>
 </p>
 
-### Gold ($500/mo)
+### Złoci (500 USD miesięcznie)
 
 <p style="text-align: center; margin-top: 0; margin-bottom: 60px" class="sponsors-page">
   <a href="https://deepstreamhub.com" target="_blank" style="width:140px;top:1px">
@@ -47,8 +48,8 @@ However, the amount of effort needed to maintain and develop new features for th
   </a>
 </p>
 
-If you run a business and are using Vue in a revenue-generating product, it makes business sense to sponsor Vue development: **it ensures the project that your product relies on stays healthy and actively maintained.** It can also help your exposure in the Vue community and makes it easier to attract Vue developers.
+Jeżeli korzystasz z Vue.js w swoim komercyjnym produkcie, który przynosi dochód to sensownym rozwiązaniem jest wspieranie rozwoju Vue.js: **zapewni to, że Twój produkt będzie korzystać z narzędzi, które są ciągle udoskonalane oraz wspierane.** Może to także pomóc Tobie i Twojej firmie zaistnieć w społeczności Vue.js oraz zachęcić nowych programistów do pracy u Ciebie.
 
-If you are a business that is building core products using Vue.js, I am also open to conversations regarding custom sponsorship / consulting arrangements. [Get in touch on Twitter](https://twitter.com/youyuxi).
+Jestem otwarty także na inne formy wsparcia - jeżeli jesteś tym zainteresowany to [skontaktuj się ze mną na twitterze]((https://twitter.com/youyuxi).
 
-If you are an individual user and have enjoyed the productivity of using Vue, consider donating as a sign of appreciation - like buying me coffee once in a while :)
+A jeżeli jesteś po prostu pojedynczym użytkownikiem, który lubi korzystać z Vue, możesz swoje wsparcie finansowe potraktować jako postawienie mi kawy w dowodzie wdzięczności :)
