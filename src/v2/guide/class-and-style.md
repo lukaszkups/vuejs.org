@@ -1,22 +1,24 @@
 ---
-title: Class and Style Bindings
+title: Przypisywanie klas oraz stylów
 type: guide
 order: 6
 ---
 
-A common need for data binding is manipulating an element's class list and its inline styles. Since they are both attributes, we can use `v-bind` to handle them: we just need to calculate a final string with our expressions. However, meddling with string concatenation is annoying and error-prone. For this reason, Vue provides special enhancements when `v-bind` is used with `class` and `style`. In addition to strings, the expressions can also evaluate to objects or arrays.
+Dzięki możliwości przypisywania danych, które umożliwia nam Vue.js możemy manipulować klasami elementów oraz inline'owymi stylami. Ponieważ są to zwykłe atrybuty, możemy użyć `v-bind` żeby je obsłużyć. Tak naprawdę ostatecznie wynikiem takiego przypisania będzie ciąg znaków, wygenerowany przez instrukcje warunkowe. Jak wiadomo, operowanie na takich danych może powodować wiele problemów oraz generować błędy.
 
-## Binding HTML Classes
+Właśnie dlatego twórcy Vue.js zadali sobie trud rozwiązania tego problemu i ułatwili programistom pracę poprzez stosowanie obiektów czy też tablic jako danych obsługujących przypisywanie klas oraz stylów.
 
-### Object Syntax
+## Przypisywanie klas HTML
 
-We can pass an object to `v-bind:class` to dynamically toggle classes:
+### Składnia obiektu
+
+Aby dynamicznie przełączać się między klasami, możemy przekazać obiekt do atrybutu `v-bind:class`: 
 
 ``` html
 <div v-bind:class="{ active: isActive }"></div>
 ```
 
-The above syntax means the presence of the `active` class will be determined by the [truthiness](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) of the data property `isActive`.
+Powyższy kod oznacza, że klasa `active` zostanie dodana do elementu HTML tylko wtedy, gdy zmienna `isActive` zwróci wartość `true`.
 
 You can have multiple classes toggled by having more fields in the object. In addition, the `v-bind:class` directive can also co-exist with the plain `class` attribute. So given the following template:
 

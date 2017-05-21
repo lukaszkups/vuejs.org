@@ -2,31 +2,31 @@
 type: api
 ---
 
-## Global Config
+## Globalna konfiguracja
 
-`Vue.config` is an object containing Vue's global configurations. You can modify its properties listed below before bootstrapping your application:
+`Vue.config` jest obiektem zawierającym globalną konfigurację dla Vue. Poniżej przedstawiono listę atrybutów, które możesz zmodyfikować przed przystąpieniem do pracy nad aplikacją:
 
 ### silent
 
-- **Type:** `boolean`
+- **Typ:** `boolean`
 
-- **Default:** `false`
+- **Wartość domyślna:** `false`
 
-- **Usage:**
+- **Przykład użycia:**
 
   ``` js
   Vue.config.silent = true
   ```
 
-  Suppress all Vue logs and warnings.
+  Wyłącza wszystkie logi oraz ostrzeżenia zwracane przez Vue.
 
 ### optionMergeStrategies
 
-- **Type:** `{ [key: string]: Function }`
+- **Typ:** `{ [key: string]: Function }`
 
-- **Default:** `{}`
+- **Wartość domyślna:** `{}`
 
-- **Usage:**
+- **Przyklad użycia:**
 
   ``` js
   Vue.config.optionMergeStrategies._my_option = function (parent, child, vm) {
@@ -40,19 +40,21 @@ type: api
   // Profile.options._my_option = 2
   ```
 
-  Define custom merging strategies for options.
+  Definiuje sposób w jaki Vue operuje danymi nowo tworzonych obiektów podczas operacji dziedziczenia.
 
-  The merge strategy receives the value of that option defined on the parent and child instances as the first and second arguments, respectively. The context Vue instance is passed as the third argument.
+  /*Define custom merging strategies for options.
 
-- **See also:** [Custom Option Merging Strategies](../guide/mixins.html#Custom-Option-Merge-Strategies)
+  The merge strategy receives the value of that option defined on the parent and child instances as the first and second arguments, respectively. The context Vue instance is passed as the third argument.*/
+
+- **Sprawdź także:** [Niestandardowe strategie łączenia danych  /* Custom Option Merging Strategies */](../guide/mixins.html#Custom-Option-Merge-Strategies)
 
 ### devtools
 
-- **Type:** `boolean`
+- **Typ:** `boolean`
 
-- **Default:** `true` (`false` in production builds)
+- **Wartość domyślna:** `true` (`false` w buildach produkcynych)
 
-- **Usage:**
+- **Przykład użycia:**
 
   ``` js
   // make sure to set this synchronously immediately after loading Vue
